@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfólio de Gustavo Souza — Ciência da Computação na UFOP."
+    />
+    <title>Gustavo Souza · Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="logo" href="#topo">GS</a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        Menu
+      </button>
+      <nav id="menu" class="nav" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#competências">Competências</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main id="conteudo">
+      <section id="topo" class="hero">
+        <div class="hero-copy">
+          <img
+            class="avatar"
+            src="img/retrato.jpg"
+            alt="Retrato de Gustavo Souza"
+            width="128"
+            height="128"
+          />
+          <p class="eyebrow">Software, problemas e tudo que existe entre os dois.</p>
+          <h1>Gustavo Souza</h1>
+          <p class="lede">
+            Desenvolvedor de software em formação, interessado em construir aplicações que sejam tão cuidadosas na experiência quanto são na implementação.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projetos">Ver projetos</a>
+            <a class="btn btn-ghost" href="#contato">Falar comigo</a>
+          </div>
+        </div>
+
+        <aside id="formacao" class="snapshot" aria-label="Formação">
+          <p class="snapshot-kicker">Formação</p>
+          <p class="snapshot-status">Bacharel em Ciência da Computação</p>
+          <dl class="snapshot-list">
+            <div>
+              <dt>Graduação</dt>
+              <dd>
+                Ciência da Computação — Universidade Federal de Ouro Preto (UFOP)<br />
+                <time datetime="2022">2022.1</time> — cursando
+              </dd>
+            </div>
+            <div>
+              <dt>Ensino médio integrado ao técnico</dt>
+              <dd>
+                Técnico em Mecânica — Instituto Federal de Minas Gerais (IFMG),
+                Campus Congonhas<br />
+                <time datetime="2019">2019</time> – <time datetime="2021">2021</time>
+              </dd>
+            </div>
+            <div>
+              <dt>Agora</dt>
+              <dd>Aberto a estágios</dd>
+            </div>
+          </dl>
+          <a class="snapshot-link" href="#contato">Ir direto ao contato</a>
+        </aside>
+      </section>
+
+      <section id="sobre" class="section">
+        <h2>Sobre</h2>
+        <div class="about-grid">
+          <p>
+            Sou estudante de Ciência da Computação na UFOP e estou finalizando
+            minha graduação. Gosto de tecnologia principalmente pela possibilidade
+            de transformar problemas em soluções que funcionam de verdade. Ao longo
+            da graduação, venho explorando diferentes áreas da programação, com
+            maior interesse por desenvolvimento de software e aplicações web.
+          </p>
+          <p>
+            Este portfólio é uma forma de reunir o que venho construindo e
+            aprendendo nesse caminho. Gosto de entender como as coisas funcionam,
+            encontrar soluções para problemas e transformar uma ideia em algo
+            utilizável. Mais do que mostrar tecnologias, quero mostrar aqui meu
+            processo de evolução como desenvolvedor.
+          </p>
+        </div>
+      </section>
+
+      <section id="projetos" class="section">
+        <h2>Projetos</h2>
+        <p class="section-intro">
+          Espaço onde deixo meus projetos, durante a faculdade foquei em fazer trabalhos focados na faculdade, então ainda não tenho muitos projetos autônomos, mas pretendo aumentar a quantidade e a qualidade com o tempo.
+        </p>
+        <ul class="cards">
+          <li class="card">
+            <p class="card-tag">Laravel · HTML · CSS</p>
+            <h3>Projeto EEDJA</h3>
+            <p>
+              Projeto em Laravel, sistema voltado para planejamento escolar e gerenciamento de grades horárias.
+            </p>
+            <a href="https://github.com/guzsouza/eedja-project" target="_blank" rel="noopener noreferrer">Ver no GitHub</a>
+          </li>
+          <li class="card">
+            <p class="card-tag">C · C++ · Java</p>
+            <h3>Repositório da Faculdade</h3>
+            <p>
+              Alguns trabalhos que fiz durante a faculdade, em C, C++ e Java. A maioria dos trabalhos são exercícios de programação, mas alguns são projetos mais complexos.
+            </p>
+            <a href="https://github.com/guzsouza/UFOP">Ver no GitHub</a>
+          </li>
+          <li class="card">
+            <p class="card-tag">ProgWeb</p>
+            <h3>Este portfólio</h3>
+            <p>
+              Site estático com navegação suave, menu em tela pequena e
+              formulário de contato no próprio navegador.
+            </p>
+            <a href="https://github.com/guzsouza">Ver no GitHub</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="competências" class="section">
+        <h2>Competências e Experiência</h2>
+        <ul class="competencies">
+          <li>Laravel Básico</li>
+          <li>Python</li>
+          <li>C, C++ e Java</li>
+          <li>HTML semântico</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git e GitHub</li>
+          <li>Inglês Intermediário</li>
+          <li>Responsividade</li>
+          <li>Acessibilidade básica</li>
+        </ul>
+
+         <h3 class="skills-group-title">Experiência</h3>
+          <ul class="timeline">
+            <li>
+              <p class="timeline-period">2022 — 2023</p>
+              <h4>Desenvolvedor Web</h4>
+              <p class="timeline-place">Voluta Soluções (Empresa Júnior)</p>
+              <p>
+                Desenvolvedor web com foco em HTML, CSS e JavaScript, aplicando
+                metodologia SCRUM. Contribuí para projetos dinâmicos e responsivos,
+                garantindo qualidade e eficiência na entrega.
+              </p>
+            </li>
+            <li>
+              <p class="timeline-period">2023</p>
+              <h4>Assessor de Projetos</h4>
+              <p class="timeline-place">Voluta Soluções (Empresa Júnior)</p>
+              <p>
+                Assessoria na execução de projetos web dinâmicos e responsivos,
+                priorizando qualidade e prazos e promovendo um ambiente colaborativo
+                entre a equipe.
+              </p>
+            </li>
+            <li>
+              <p class="timeline-period">2025</p>
+              <h4>Monitor de Matemática Discreta</h4>
+              <p class="timeline-place">Universidade Federal de Ouro Preto</p>
+              <p>
+                Apoio a alunos na disciplina: revisão de conceitos teóricos,
+                resolução de exercícios e suporte ao processo de aprendizagem.
+              </p>
+            </li>
+          </ul>
+      </section>
+
+      <section id="contato" class="section">
+        <h2>Contato</h2>
+        <p class="section-intro">
+          Quer conversar sobre um projeto, oportunidade ou simplesmente trocar
+          uma ideia? Envie uma mensagem.
+        </p>
+        <form id="form-contato" class="contact-form" action="https://formspree.io/f/mjykvqpk" method="POST" novalidate>
+
+        <label>
+          Nome
+          <input
+            type="text"
+            name="nome"
+            required
+            autocomplete="name"
+          />
+        </label>
+
+        <label>
+          E-mail
+          <input
+            type="email"
+            name="email"
+            required
+            autocomplete="email"
+          />
+        </label>
+
+        <label>
+          Mensagem
+          <textarea
+            name="mensagem"
+            rows="5"
+            required
+          ></textarea>
+        </label>
+
+        <p
+          id="form-status"
+          class="form-status"
+          role="status"
+        ></p>
+
+        <button class="btn btn-primary" type="submit">
+          Enviar mensagem
+        </button>
+
+      </form>
+
+      <ul class="social">
+
+        <li>
+          <a
+            href="https://github.com/guzsouza"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.linkedin.com/in/guzsouza/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
+
+      </ul>
+
+    </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="ano"></span> Gustavo Souza</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
