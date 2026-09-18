@@ -406,3 +406,22 @@ code {
     display: flex;
   }
 }
+
+.resume-callout {
+  font-family: "Fraunces", serif;
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--accent, #e8a06a);
+  margin: 0 0 1.25rem;
+}
+
+.resume-download {
+  margin-top: 2.5rem;
+  text-align: center;
+}
+
+.btn-resume {
+  font-size: 1.15rem;
+  padding: 1rem 2.75rem;
+}
+
